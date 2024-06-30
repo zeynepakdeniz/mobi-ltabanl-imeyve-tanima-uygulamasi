@@ -1,0 +1,37 @@
+name: fruits
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  camera: ^0.11.0+1
+  flutter:
+    sdk: flutter
+  image: ^4.2.0
+  image_picker: ^0.8.3+2
+  tflite_flutter: ^0.10.4
+  http: ^0.13.4
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+ uses-material-design: true
+ assets:
+ - assets\mobilenetv2_model.tflite
+ - assets\ananas.jpg
+ - assets\çilek.jpg
+ - assets\elma.jpg
+ - assets\kiraz.jpg
+ - assets\limon.jpg
+ - assets\mandalina.jpg
+ - assets\muz.jpg
+ - assets\resim.jpg
+ - assets\arkaplan.jpg
+ - assets\arkaplan1.jpg
+ - assets\fruit.gif
